@@ -1,5 +1,5 @@
 {
-  "name": "create-mgx-app",
+  "name": "mgx-app",
   "version": "0.0.4",
   "description": "This project is a lightweight and fast alternative for creating MVC applications, designed to simplify the development process while maintaining high performance and flexibility. With its intuitive architecture and efficient features, it empowers developers to build robust applications quickly and effortlessly.",
   "repository": {
@@ -7,11 +7,12 @@
     "url": "git+https://github.com/AndresVillarreta/mgf.git"
   },
   "bin": {
-    "create-mgx-app": "./framework/create.js"
+    "mgx-app": "./framework/create.js"
   },
-  "main": "",
+  "main": "index.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "php -s localhost:8000"
   },
   "author": "",
   "license": "MIT",
