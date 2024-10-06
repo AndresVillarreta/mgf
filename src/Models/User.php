@@ -3,7 +3,7 @@
 class User extends Model
 {
     protected static $table = 'users';
-    
+
     // Método para obtener todos los usuarios
     public static function getAllUsers()
     {
